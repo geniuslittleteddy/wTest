@@ -1,5 +1,4 @@
 # The following table lists the 115 apps we used in wTest
-
 | Index | Package                                 | Star | KLOC   | Revisions | Issues | Ratings | Downloads | Category                                                       |
 | ----- | --------------------------------------- | ---- | ------ | --------- | ------ | ------- | --------- | -------------------------------------------------------------- |
 | 1     | jp.redmine.redmineclient                | 65   | 27685  | 1351      | 138    | 3.7     | 5K+       | Productivity                                                   |
