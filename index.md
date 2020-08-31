@@ -1,4 +1,4 @@
-## The following table lists 115 apps we used in wTest
+# The following table lists the 115 apps we used in wTest
 
 | Index | Package                                 | Star | KLOC   | Revisions | Issues | Ratings | Downloads | Category                                                       |
 | ----- | --------------------------------------- | ---- | ------ | --------- | ------ | ------- | --------- | -------------------------------------------------------------- |
