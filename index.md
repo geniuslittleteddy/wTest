@@ -116,4 +116,5 @@
 | 112   | com.tobykurien.webapps                  | 95   | 1501   | 302       | 147    | 3.9     | 10K+      | Communication                                                  |
 | 113   | net.wigle.wigleandroid                  | 334  | 45382  | 1716      | 79     | 4.3     | 500K+     | Tools                                                          |
 | 114   | org.kiwix.kiwixmobile                   | 264  | 40696  | 3694      | 975    | 4.4     | 500K+     | Books & Reference                                              |
-| 115   | fr.ac\_versailles.dane.xiaexpress       | 3    | 6573   | 159       | 2      | 4.7     | 100+      | Education                                                    
+| 115   | fr.ac\_versailles.dane.xiaexpress       | 3    | 6573   | 159       | 2      | 4.7     | 100+      | Education      
+|
