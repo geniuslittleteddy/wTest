@@ -1,6 +1,7 @@
 # The following table lists the 115 apps we used in wTest
-| Index | Package                                 | Star | KLOC   | Revisions | Issues | Ratings | Downloads | Category                                                       |
-| ----- | --------------------------------------- | ---- | ------ | --------- | ------ | ------- | --------- | -------------------------------------------------------------- |
+
+| Index | Package                                 | Star | KLOC   | Revisions | Issues | Ratings | Downloads | Category             |
+| ----- | --------------------------------------- | ---- | ------ | --------- | ------ | ------- | --------- | ---------------------|
 | 1     | jp.redmine.redmineclient                | 65   | 27685  | 1351      | 138    | 3.7     | 5K+       | Productivity                                                   |
 | 2     | com.duckduckgo.mobile.android           | 1200 | 94287  | 940       | 192    | 4.7     | 10M+      | Tools                                                          |
 | 3     | io.github.hidroh.materialistic          | 2000 | 96739  | 1731      | 791    | 4.4     | 100K+     | News & Magazines                                               |
@@ -61,7 +62,7 @@
 | 58    | org.epstudios.epmobile                  | 13   | 19058  | 720       | 32     | 4.5     | 50K+      | Medical                                                        |
 | 59    | org.walleth                             | 371  | 22933  | 1325      | 343    | 4.1     | 10K+      | Finance                                                        |
 | 60    | org.zamedev.gloomydungeons2.opensource  | 74   | 91311  | 46        | 4      |         |           |                                                                |
-| 61    | protect.budgetwatch                     | 63   | 11414  | 464       | 57     | 4.6     | 1K+       | [Finance](https://play.google.com/store/apps/category/FINANCE) |
+| 61    | protect.budgetwatch                     | 63   | 11414  | 464       | 57     | 4.6     | 1K+       | Finance
 | 62    | info.puzz.a10000sentences               | 49   | 7561   | 494       | 11     | 4.3     | 10K+      | Education                                                      |
 | 63    | co.epitre.aelf\_lectures                | 17   | 156366 | 588       | 13     | 4.6     | 100K+     | Lifestyle                                                      |
 | 64    | com.gianlu.aria2app                     | 160  | 25113  | 1513      | 58     | 4.6     | 10K+      | Tools                                                          |
@@ -115,4 +116,4 @@
 | 112   | com.tobykurien.webapps                  | 95   | 1501   | 302       | 147    | 3.9     | 10K+      | Communication                                                  |
 | 113   | net.wigle.wigleandroid                  | 334  | 45382  | 1716      | 79     | 4.3     | 500K+     | Tools                                                          |
 | 114   | org.kiwix.kiwixmobile                   | 264  | 40696  | 3694      | 975    | 4.4     | 500K+     | Books & Reference                                              |
-| 115   | fr.ac\_versailles.dane.xiaexpress       | 3    | 6573   | 159       | 2      | 4.7     | 100+      | Education                                                      |
+| 115   | fr.ac\_versailles.dane.xiaexpress       | 3    | 6573   | 159       | 2      | 4.7     | 100+      | Education                                                    
