@@ -117,8 +117,16 @@ A card answer is lost after device orientation changes
 
 <img width="933" alt="Screen Shot 2021-08-31 at 10 05 58 PM" src="https://user-images.githubusercontent.com/67744580/131517213-c3cfc3cf-24a1-4d38-95d5-74e1f19332f1.png">
 
-### Bug c1
-### Bug c2
+### Bug c1 (org.jw.jwlibrary.mobile)
+License agreement will disappear after device rotation
+
+<img width="576" alt="Screen Shot 2021-08-31 at 10 22 31 PM" src="https://user-images.githubusercontent.com/67744580/131520101-2f2ac8fe-1ab1-4f8a-ae83-c0386fc6401c.png">
+
+### Bug c2 (home.solo.launcher.free)
+Privacy policy page and terms of services page get refresh after device rotation
+
+<img width="777" alt="Screen Shot 2021-08-31 at 10 27 47 PM" src="https://user-images.githubusercontent.com/67744580/131520917-fcdd1311-cdff-4fcb-9f0f-cf42d6184485.png">
+
 ### Bug c3
 ### Bug c4
 ### Bug c5
