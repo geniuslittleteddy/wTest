@@ -112,7 +112,10 @@ App crashes when rotating screen at WordAds page
 
 <img width="938" alt="Screen Shot 2021-08-31 at 9 52 49 PM" src="https://user-images.githubusercontent.com/67744580/131515042-a151cdff-5068-4007-a8ea-98302d12126c.png">
 
-### Bug o23
+### Bug o23 (com.ichi2.anki)
+A card answer is lost after device orientation changes
+
+<img width="933" alt="Screen Shot 2021-08-31 at 10 05 58 PM" src="https://user-images.githubusercontent.com/67744580/131517213-c3cfc3cf-24a1-4d38-95d5-74e1f19332f1.png">
 
 ### Bug c1
 ### Bug c2
