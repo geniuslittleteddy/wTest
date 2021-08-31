@@ -99,11 +99,21 @@ In this section, we provide the steps to reproduce the bugs in Table 2 whose lin
 
 ### Bug o10 (ca.rmen.android.networkmonitor)
 Scroll position of the Notices page is lost after device rotation
+
 <img width="737" alt="Screen Shot 2021-08-31 at 9 23 03 PM" src="https://user-images.githubusercontent.com/67744580/131510166-14ddf88b-3f33-494f-b56a-704f3df84f4c.png">
 
-### Bug o15
-### Bug o17
+### Bug o15 (chat.rocket.android)
+Input texts are cleared after device rotation
+
+<img width="629" alt="Screen Shot 2021-08-31 at 9 38 38 PM" src="https://user-images.githubusercontent.com/67744580/131512722-c1904073-7399-4e26-90ed-a7c062e807c4.png">
+
+### Bug o17 (org.wordpress.android)
+App crashes when rotating screen at WordAds page
+
+<img width="938" alt="Screen Shot 2021-08-31 at 9 52 49 PM" src="https://user-images.githubusercontent.com/67744580/131515042-a151cdff-5068-4007-a8ea-98302d12126c.png">
+
 ### Bug o23
+
 ### Bug c1
 ### Bug c2
 ### Bug c3
