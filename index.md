@@ -60,7 +60,7 @@ The following table lists the 106 open-source Android apps used in our evaluatio
 | 52 | foss.cnugteren.nlweer | 105 | org.sufficientlysecure.keychain |
 | 53 | net.bible.android.activity | 106 | com.gianlu.aria2app |
 
-# Close-source subjects ([download](https://...))
+# Close-source subjects ([download](https://drive.google.com/file/d/1uNJhPR9aAno3pFVOvQfkS5DHuvY1i95p/view?usp=sharing))
 
 The following table lists the 50 close-source Android apps used in our evaluation.
 
