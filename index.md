@@ -127,10 +127,26 @@ Privacy policy page and terms of services page get refresh after device rotation
 
 <img width="777" alt="Screen Shot 2021-08-31 at 10 27 47 PM" src="https://user-images.githubusercontent.com/67744580/131520917-fcdd1311-cdff-4fcb-9f0f-cf42d6184485.png">
 
-### Bug c3
-### Bug c4
-### Bug c5
-### Bug c6
+### Bug c3 (com.sec.app.samsungprintservice)
+FAQ page refreshes after device rotation
+
+<img width="583" alt="Screen Shot 2021-08-31 at 11 07 48 PM" src="https://user-images.githubusercontent.com/67744580/131527986-94850493-12d6-4254-a62e-75dc4f1b378e.png">
+
+### Bug c4 (com.usps)
+App crash after click privacy@usps.gov in the privacy policy page
+
+<img width="604" alt="Screen Shot 2021-08-31 at 11 11 19 PM" src="https://user-images.githubusercontent.com/67744580/131528545-99de0418-fd04-4f6d-a5a3-b5a11fb8b85d.png">
+
+### Bug c5 (com.marvel.comics)
+Dialog disappear in the privacy notice page after device rotation
+
+<img width="874" alt="Screen Shot 2021-08-31 at 11 31 10 PM" src="https://user-images.githubusercontent.com/67744580/131531930-0a5e9b7f-fa97-4b99-bbaa-dbf00babb50f.png">
+
+### Bug c6 (com.groupme.android)
+Press back and the app will not respond
+
+<img width="812" alt="Screen Shot 2021-08-31 at 11 36 16 PM" src="https://user-images.githubusercontent.com/67744580/131532728-b3b92bce-b3bb-43e9-84ae-45651e805151.png">
+
 ### Bug c7
 ### Bug c8
 ### Bug c9
