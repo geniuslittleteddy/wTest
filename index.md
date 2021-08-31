@@ -2,6 +2,8 @@ We publish the wTest tool and the evaluation results in this page.
 
 # Open-source subjects ([download](https://...))
 
+The following table lists the 106 open-source Android apps used in our evaluation.
+
 | Index | Package | Index | Package |
 | --- | --- | --- | --- | 
 | 1 | au.com.wallaceit.reddinator | 54 | org.nitri.opentopo |
@@ -60,6 +62,8 @@ We publish the wTest tool and the evaluation results in this page.
 
 # Close-source subjects ([download](https://...))
 
+The following table lists the 50 close-source Android apps used in our evaluation.
+
 | Index | Package | Index | Package |
 | --- | --- | --- | --- | 
 | 1 | app.bpjs.mobile | 26 | com.fifthfinger.clients.joann |
@@ -89,5 +93,26 @@ We publish the wTest tool and the evaluation results in this page.
 | 25 | com.amazon.storm.lightning.client.aosp | 50 | org.anddev.android.solfa_lite |
 
 # Evaluation result
-# Steps to reproduce the bugs
+# Bug Reproduction Steps
+
+In this section, we provide the steps to reproduce the bugs in Table 2 whose link is on this website. We provide the app package name, a brief description of the bug, and the screenshots captured during reproduction.
+
+### Bug o10 (ca.rmen.android.networkmonitor)
+Scroll position of the Notices page is lost after device rotation
+<img width="737" alt="Screen Shot 2021-08-31 at 9 23 03 PM" src="https://user-images.githubusercontent.com/67744580/131510166-14ddf88b-3f33-494f-b56a-704f3df84f4c.png">
+
+### Bug o15
+### Bug o17
+### Bug o23
+### Bug c1
+### Bug c2
+### Bug c3
+### Bug c4
+### Bug c5
+### Bug c6
+### Bug c7
+### Bug c8
+### Bug c9
+### Bug c10
+
 # Tool
