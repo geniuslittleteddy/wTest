@@ -147,9 +147,24 @@ Press back and the app will not respond
 
 <img width="812" alt="Screen Shot 2021-08-31 at 11 36 16 PM" src="https://user-images.githubusercontent.com/67744580/131532728-b3b92bce-b3bb-43e9-84ae-45651e805151.png">
 
-### Bug c7
-### Bug c8
-### Bug c9
-### Bug c10
+### Bug c7 (com.atomczak.notepat)
+FAQ page refreshes after device rotation
+
+<img width="667" alt="Screen Shot 2021-09-01 at 2 54 36 PM" src="https://user-images.githubusercontent.com/67744580/131625900-2a49bfac-a415-443a-ac41-686a9bac70aa.png">
+
+### Bug c8 (com.atomczak.notepat)
+Privacy policy page refreshes after device rotation
+
+<img width="666" alt="Screen Shot 2021-09-01 at 2 57 37 PM" src="https://user-images.githubusercontent.com/67744580/131626294-1adfbef6-42f2-4400-b50e-fb8d50115f09.png">
+
+### Bug c9 (com.ninetechnoz.pmawasyojana)
+Privacy policy page refreshes after device rotation
+
+<img width="906" alt="Screen Shot 2021-09-01 at 3 09 09 PM" src="https://user-images.githubusercontent.com/67744580/131627824-8cf7c694-d1c1-4be6-a23c-cff1bf32d27b.png">
+
+### Bug c10 (com.hp.android.printservice)
+Rotate in HP Print Service Plugin and the page will refresh
+
+<img width="676" alt="Screen Shot 2021-09-01 at 3 03 22 PM" src="https://user-images.githubusercontent.com/67744580/131626975-5bf79e15-028b-42c8-bd55-5653f508291d.png">
 
 # Tool
