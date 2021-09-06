@@ -2,7 +2,7 @@ We publish the wTest tool and the evaluation results in this page.
 
 # Open-source subjects ([download](https://drive.google.com/file/d/14UkBn9d-h_7XVYpuHZYE17eU3H-pyZ4T/view?usp=sharing))
 
-The following table lists the 106 open-source Android apps used in our evaluation.
+The following table lists the 101 open-source Android apps used in our evaluation.
 
 | Index | Package | Index | Package |
 | --- | --- | --- | --- | 
