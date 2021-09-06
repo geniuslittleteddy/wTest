@@ -58,9 +58,9 @@ The following table lists the 101 open-source Android apps used in our evaluatio
 | 50 | com.google.android.stardroid | 101 | io.github.gsantner.memetastic |
 | 51 | com.wesaphzt.privatelocation | |
 
-# Close-source subjects ([download](https://drive.google.com/file/d/1uNJhPR9aAno3pFVOvQfkS5DHuvY1i95p/view?usp=sharing))
+# Closed-source subjects ([download](https://drive.google.com/file/d/1uNJhPR9aAno3pFVOvQfkS5DHuvY1i95p/view?usp=sharing))
 
-The following table lists the 50 close-source Android apps used in our evaluation.
+The following table lists the 50 closed-source Android apps used in our evaluation.
 
 | Index | Package | Index | Package |
 | --- | --- | --- | --- | 
