@@ -173,3 +173,8 @@ Rotate in HP Print Service Plugin and the page will refresh
 <img width="676" alt="Screen Shot 2021-09-01 at 3 03 22 PM" src="https://user-images.githubusercontent.com/67744580/131626975-5bf79e15-028b-42c8-bd55-5653f508291d.png">
 
 # Tool
+Our tool is composed of two parts. The first part instruments an Android app. The second part generates tests for the instrumented app.
+## Instrumentation tool
+We are obsfuscating the tool. It will be released very soon
+## Test generation (wTest)
+We are obsfuscating the tool. It will be released very soon
