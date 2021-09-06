@@ -94,6 +94,9 @@ The following table lists the 50 closed-source Android apps used in our evaluati
 This section shows the data behind Figure 4-6 in the paper. You may see a real number "-1" in the data for Q-Testing and ComboDroid. This indicates Q-Testing or ComboDroid cannot successfully test the corresponding app (due to instrumentation issues or UiAutomator issues). When drawing Figure 4-6, these "-1"s were excluded.
 
 * WebView-specific property coverage result for open-source apps ([view](https://docs.google.com/spreadsheets/d/12_43iCMPc_6Yw3Jv2oA8tX1PJiTIuOA-u4YBQVH5xU4/edit?usp=sharing))
+* WebView-specific property coverage result for closed-source apps ([view](https://docs.google.com/spreadsheets/d/1QiVZNRuKSm8VZOxzr75L7oeQQx7thRNtSL5HfLBC7Fs/edit?usp=sharing))
+* Code coverage result for open-source apps ([view]())
+* Code coverage result for open-source apps ([view]())
 
 # Bug Reproduction Steps
 
