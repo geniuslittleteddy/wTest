@@ -91,6 +91,10 @@ The following table lists the 50 closed-source Android apps used in our evaluati
 | 25 | com.amazon.storm.lightning.client.aosp | 50 | org.anddev.android.solfa_lite |
 
 # Evaluation result
+This section shows the data behind Figure 4-6 in the paper. You may see a real number "-1" in the data for Q-Testing and ComboDroid. This indicates Q-Testing or ComboDroid cannot successfully test the corresponding app (due to instrumentation issues or UiAutomator issues). When drawing Figure 4-6, these "-1"s were excluded.
+
+* WebView-specific property coverage result for open-source apps ([view](https://docs.google.com/spreadsheets/d/12_43iCMPc_6Yw3Jv2oA8tX1PJiTIuOA-u4YBQVH5xU4/edit?usp=sharing))
+
 # Bug Reproduction Steps
 
 In this section, we provide the steps to reproduce the bugs in Table 2 whose link is on this website. We provide the app package name, a brief description of the bug, and the screenshots captured during reproduction.
