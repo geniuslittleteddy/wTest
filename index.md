@@ -174,8 +174,18 @@ Rotate in HP Print Service Plugin and the page will refresh
 
 # Tool
 Our tool is composed of two parts. The first part instruments an Android app. The second part generates tests for the instrumented app.
-## Instrumentation tool
-We are obsfuscating the tool. It will be released very soon
+## Instrumentation tool ([download]())
+### Requirements
+* Java 1.8 or above
+* Python 2 or 3 (We have tested on Python 2.7.16 and Python 3.6.8)
+* Node.js (We have tested on v12.16.2 and v10.16.0. You may find these versions [here](https://nodejs.org/en/download/releases/). If you are using a Linux-based OS, you may install node by following the steps [here](https://www.digizol.com/2017/08/nodejs-install-no-root-sudo-permission-linux-centos.html))
+
+### Steps to use
+* Create a folder for an app under test. The folder name should be the app's package name (We have created a folder for Wikipedia app under `Instrumentation-ICSE22-Submit/apps`).
+* Run `sh instrument.sh APP_FOLDER APP_PACKAGE_NAME PORT_NUM APP_TYPE` to instrument an app (`APP_TYPE` can be `OPEN_SOURCE` or `CLOSE_SOURCE`. We will explain `PORT_NUM` later. An example command can be `sh instrument.sh apps/org.wikipedia org.wikipedia 3016 OPEN_SOURCE`).
+* When instrumentation finishes, you can see an `output` folder under the `APP_FOLDER`. The apk file whose name ends with `-aligned-debugSigned.apk` is the instrumented apk.
+
+
 ## Test generation (wTest)
 ### Prerequisite
 The instrumented app needs to run on a customized Android system because there are some added fields (e.g., the ID) in the instrumented app that the orginal Android system doesn't have. It is very simple to use our customized Android system image, you just need to follow the following two steps
