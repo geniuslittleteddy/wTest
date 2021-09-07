@@ -174,7 +174,7 @@ Rotate in HP Print Service Plugin and the page will refresh
 
 # Tool
 Our tool is composed of two parts. The first part instruments an Android app. The second part generates tests for the instrumented app.
-## Instrumentation tool ([download]())
+## Instrumentation tool ([download](https://drive.google.com/file/d/1FVf_AYduIC5gs75Ms5UWtR0zkFreRTBY/view?usp=sharing))
 ### Requirements
 * Java 1.8 or above
 * Python 2 or 3 (We have tested on Python 2.7.16 and Python 3.6.8)
