@@ -186,7 +186,7 @@ Our tool is composed of two parts. The first part instruments an Android app. Th
 * When instrumentation finishes, you can see an `output` folder under the `APP_FOLDER`. The apk file whose name ends with `-aligned-debugSigned.apk` is the instrumented apk.
 
 
-## Test generation (wTest)
+## Test generation (wTest) ([download]())
 ### Prerequisite
 The instrumented app needs to run on a customized Android system because there are some added fields (e.g., the ID) in the instrumented app that the orginal Android system doesn't have. It is very simple to use our customized Android system image, you just need to follow the following two steps
 * Download our customized [system.img](https://drive.google.com/file/d/1t2g56Bx_D3pPbPTUftS9uHMD9-IFeqfS/view?usp=sharing) and [ramdisk.img](https://drive.google.com/file/d/1V0z3V87QZSrz_4SMUIJKSDioIwPFVRhB/view?usp=sharing) (They are for Android 24)
@@ -196,5 +196,6 @@ Usually, both of `system.img` and `ramdisk.img` are placed under `<Android_SDK_R
 
 Once you have finished the above two steps, you can try to start the Android emulator as usual.
 
-### Tool
-We are obsfuscating the tool. It will be released very soon
+### Steps to use
+* Enter `Instrumentation-ICSE22-Submit/js` and run `sh launchServer.sh PORT_NUM`. This little server is registered on a `PORT_NUM` in order to recevice JavaScript code that is dynamically constructed in the app under test. The server is responsible for instrumenting the js code and sending the instrumented code back to the app. `PORT_NUM` should be the same as the one used when instrumenting the app. An example command can be `sh launchServer.sh 3016`
+
