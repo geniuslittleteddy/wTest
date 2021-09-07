@@ -196,6 +196,14 @@ Usually, both of `system.img` and `ramdisk.img` are placed under `<Android_SDK_R
 
 Once you have finished the above two steps, you can try to start the Android emulator as usual.
 
+### Environment requirements
+* `export JAVA_HOME=YOUR_JAVA_HOME` (example: `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/`)
+* `export ANDROID_HOME=YOUR_ANDROID_HOME` (example: `export ANDROID_HOME=/Library/Android/sdk`)
+* `export PATH=$PATH:${ANDROID_HOME}`
+* `export PATH=$PATH:<Path_to_wTest>/node_modules/.bin` (make sure you have downloaded `wTest`)
+* `export PATH=$PATH:${ANDROID_HOME}/emulator`
+* `export PATH=$PATH:${ANDROID_HOME}/platform-tools`
+
 ### Steps to use
 * Enter `Instrumentation-ICSE22-Submit/js` and run `sh launchServer.sh PORT_NUM`. This little server is registered on a `PORT_NUM` in order to recevice JavaScript code that is dynamically constructed in the app under test. The server is responsible for instrumenting the js code and sending the instrumented code back to the app. `PORT_NUM` should be the same as the one used when instrumenting the app. An example command can be `sh launchServer.sh 3016`
 
