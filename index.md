@@ -206,4 +206,5 @@ Once you have finished the above two steps, you can try to start the Android emu
 
 ### Steps to use
 * Enter `Instrumentation-ICSE22-Submit/js` and run `sh launchServer.sh PORT_NUM`. This little server is registered on a `PORT_NUM` in order to recevice JavaScript code that is dynamically constructed in the app under test. The server is responsible for instrumenting the js code and sending the instrumented code back to the app. `PORT_NUM` should be the same as the one used when instrumenting the app. An example command can be `sh launchServer.sh 3016`
+* Launch Appium by `appium -p APPIUM_PORT_NUM` (example: `appium -p 4723`)
 
