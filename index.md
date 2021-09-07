@@ -186,5 +186,5 @@ Usually, both of `system.img` and `ramdisk.img` are placed under `<Android_SDK_R
 
 Once you have finished the above two steps, you can try to start the Android emulator as usual.
 
-### 
+### Tool
 We are obsfuscating the tool. It will be released very soon
