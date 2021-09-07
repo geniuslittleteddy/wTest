@@ -177,4 +177,13 @@ Our tool is composed of two parts. The first part instruments an Android app. Th
 ## Instrumentation tool
 We are obsfuscating the tool. It will be released very soon
 ## Test generation (wTest)
+### Prerequisite
+The instrumented app needs to run on a customized Android system because there are some added fields (e.g., the ID) in the instrumented app that the orginal Android system doesn't have. It is very simple to use our customized Android system image, you just need to follow the following two steps
+* Download our customized [system.img](https://drive.google.com/file/d/1t2g56Bx_D3pPbPTUftS9uHMD9-IFeqfS/view?usp=sharing) and [ramdisk.img](https://drive.google.com/file/d/1V0z3V87QZSrz_4SMUIJKSDioIwPFVRhB/view?usp=sharing) (They are for Android 24)
+* Replace the original `system.img` and `ramdisk.img` in your Android SDK with the downloaded two `.img` files
+
+Usually, both of `system.img` and `ramdisk.img` are placed under `<Android_SDK_Root>/system-images/android-24/google_apis/x86`
+
+Once you have finished the above two steps, you can try to start the Android emulator as usual.
+
 We are obsfuscating the tool. It will be released very soon
