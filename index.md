@@ -186,7 +186,7 @@ Our tool is composed of two parts. The first part instruments an Android app. Th
 * When instrumentation finishes, you can see an `output` folder under the `APP_FOLDER`. The apk file whose name ends with `-aligned-debugSigned.apk` is the instrumented apk.
 
 
-## Test generation (wTest) ([download]())
+## Test generation (wTest) ([download](https://drive.google.com/file/d/1QtenFius20zvDrqNVCfdj-S4DAF87rU_/view?usp=sharing))
 ### Prerequisite
 The instrumented app needs to run on a customized Android system because there are some added fields (e.g., the ID) in the instrumented app that the orginal Android system doesn't have. It is very simple to use our customized Android system image, you just need to follow the following two steps
 * Download our customized [system.img](https://drive.google.com/file/d/1t2g56Bx_D3pPbPTUftS9uHMD9-IFeqfS/view?usp=sharing) and [ramdisk.img](https://drive.google.com/file/d/1V0z3V87QZSrz_4SMUIJKSDioIwPFVRhB/view?usp=sharing) (They are for Android 24)
@@ -205,6 +205,9 @@ Once you have finished the above two steps, you can try to start the Android emu
 * `export PATH=$PATH:${ANDROID_HOME}/platform-tools`
 
 ### Steps to use
-* Enter `Instrumentation-ICSE22-Submit/js` and run `sh launchServer.sh PORT_NUM`. This little server is registered on a `PORT_NUM` in order to recevice JavaScript code that is dynamically constructed in the app under test. The server is responsible for instrumenting the js code and sending the instrumented code back to the app. `PORT_NUM` should be the same as the one used when instrumenting the app. An example command can be `sh launchServer.sh 3016`
-* Launch Appium by `appium -p APPIUM_PORT_NUM` (example: `appium -p 4723`)
+* Enter `<path_to_Instrumentation-ICSE22-Submit>/js` and run `sh launchServer.sh PORT_NUM`. This little server is registered on a `PORT_NUM` in order to recevice JavaScript code that is dynamically constructed in the app under test. The server is responsible for instrumenting the js code and sending the instrumented code back to the app. `PORT_NUM` should be the same as the one used when instrumenting the app. An example command can be `sh launchServer.sh 3016`
+* Launch Appium by `appium -p APPIUM_PORT` (example: `appium -p 4723`)
+* Launch an Android emulator
+* Enter `<path_to_wTest>` and run `sh wTest.sh PATH_TO_APP_FOLDER TIME_LIMIT ANDROID_SDK_PATH EMULATOR_ID APPIUM_PORT APP_TYPE` (Example: `sh wTest.sh <path_to_Instrumentation-ICSE22-Submit>/apps/org.wikipedia 3600 /Library/Android/sdk emulator-5554 4723 OPEN_SOURCE`)
+* When wTest finishes testing, you can see the output under `<path_to_wTest>/output/wVar/org.wikipedia`. Under this folder, `coverage.txt` contains WebView-specific property coverage and code/method coverage results.
 
