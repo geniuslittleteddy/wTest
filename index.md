@@ -200,7 +200,7 @@ Once you have finished the above two steps, you can try to start the Android emu
 * `export JAVA_HOME=YOUR_JAVA_HOME` (example: `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/`)
 * `export ANDROID_HOME=YOUR_ANDROID_HOME` (example: `export ANDROID_HOME=/Library/Android/sdk`)
 * `export PATH=$PATH:${ANDROID_HOME}`
-* `export PATH=$PATH:<Path_to_wTest>/node_modules/.bin` (make sure you have downloaded `wTest`)
+* `export PATH=$PATH:<Path_to_wTest>/node_modules/.bin` (make sure you have downloaded `wTest-ICSE22-Submit`)
 * `export PATH=$PATH:${ANDROID_HOME}/emulator`
 * `export PATH=$PATH:${ANDROID_HOME}/platform-tools`
 * If you want to use Q-Testing, please follow [here](https://github.com/anlalalu/Q-testing) to setup Q-Testing
