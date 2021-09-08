@@ -203,6 +203,8 @@ Once you have finished the above two steps, you can try to start the Android emu
 * `export PATH=$PATH:<Path_to_wTest>/node_modules/.bin` (make sure you have downloaded `wTest`)
 * `export PATH=$PATH:${ANDROID_HOME}/emulator`
 * `export PATH=$PATH:${ANDROID_HOME}/platform-tools`
+* If you want to use Q-Testing, please follow [here](https://github.com/anlalalu/Q-testing) to setup Q-Testing
+* If you want to use ComboDroid, please follow [here](https://github.com/the-themis-benchmarks/combodroid) to setup ComboDroid
 
 ### Steps to use
 * Enter `<path_to_Instrumentation-ICSE22-Submit>/js` and run `sh launchServer.sh PORT_NUM`. This little server is registered on a `PORT_NUM` in order to recevice JavaScript code that is dynamically constructed in the app under test. The server is responsible for instrumenting the js code and sending the instrumented code back to the app. `PORT_NUM` should be the same as the one used when instrumenting the app. An example command can be `sh launchServer.sh 3016`
