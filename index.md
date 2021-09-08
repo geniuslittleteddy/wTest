@@ -1,6 +1,6 @@
 We publish the wTest tool and the evaluation results in this page.
 
-# Open-source subjects ([download](https://drive.google.com/file/d/1YRFUgHz8Nz2-jwSaJDHj2DDWa3nIywHq/view?usp=sharing))
+# Open-source subjects ([download](https://drive.google.com/file/d/16Gv8eZFS1Iy0onnscY9HZ7ivcf4gSMc6/view?usp=sharing))
 
 The following table lists the 101 open-source Android apps used in our evaluation.
 
@@ -58,7 +58,7 @@ The following table lists the 101 open-source Android apps used in our evaluatio
 | 50 | com.google.android.stardroid | 101 | io.github.gsantner.memetastic |
 | 51 | com.wesaphzt.privatelocation | |
 
-# Closed-source subjects ([download](https://drive.google.com/file/d/1uNJhPR9aAno3pFVOvQfkS5DHuvY1i95p/view?usp=sharing))
+# Closed-source subjects ([download](https://drive.google.com/file/d/1tV5YE3GFZCV1MOm5qKMUlfdUw-WaEDkj/view?usp=sharing))
 
 The following table lists the 50 closed-source Android apps used in our evaluation.
 
@@ -174,7 +174,7 @@ Rotate in HP Print Service Plugin and the page will refresh
 
 # Tool
 Our tool is composed of two parts. The first part instruments an Android app. The second part generates tests for the instrumented app.
-## Instrumentation tool ([download](https://drive.google.com/file/d/1FVf_AYduIC5gs75Ms5UWtR0zkFreRTBY/view?usp=sharing))
+## Instrumentation tool ([download](https://drive.google.com/file/d/17VrvKvMA9Z3nWumj5mc2wZNHTplhHyIC/view?usp=sharing))
 ### Requirements
 * Java 1.8 or above
 * Python 2 or 3 (We have tested on Python 2.7.16 and Python 3.6.8)
@@ -186,7 +186,7 @@ Our tool is composed of two parts. The first part instruments an Android app. Th
 * When instrumentation finishes, you can see an `output` folder under the `APP_FOLDER`. The apk file whose name ends with `-aligned-debugSigned.apk` is the instrumented apk.
 
 
-## Test generation (wTest) ([download](https://drive.google.com/file/d/1DTIMeEY6ThGsAR_RUAxxN9jDkgc1rmp9/view?usp=sharing))
+## Test generation (wTest) ([download](https://drive.google.com/file/d/1YXnrwl65xzTGJniWr3XH_KFo42aLzL28/view?usp=sharing))
 ### Prerequisite
 The instrumented app needs to run on a customized Android system because there are some added fields (e.g., the ID) in the instrumented app that the orginal Android system doesn't have. It is very simple to use our customized Android system image, you just need to follow the following two steps
 * Download our customized [system.img](https://drive.google.com/file/d/1t2g56Bx_D3pPbPTUftS9uHMD9-IFeqfS/view?usp=sharing) and [ramdisk.img](https://drive.google.com/file/d/1V0z3V87QZSrz_4SMUIJKSDioIwPFVRhB/view?usp=sharing) (They are for Android 24)
