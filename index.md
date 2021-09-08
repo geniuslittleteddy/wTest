@@ -181,7 +181,7 @@ Our tool is composed of two parts. The first part instruments an Android app. Th
 * Node.js (We have tested on v12.16.2 and v10.16.0. You may find these versions [here](https://nodejs.org/en/download/releases/). If you are using a Linux-based OS, you may install node by following the steps [here](https://www.digizol.com/2017/08/nodejs-install-no-root-sudo-permission-linux-centos.html))
 
 ### Steps to use
-* Create a folder for an app under test. The folder name should be the app's package name (We have created a folder for Wikipedia app under `Instrumentation-ICSE22-Submit/apps`).
+* Create a folder for an app under test. The folder name should be the app's package name (We have created a folder for Wikipedia app under `<path_to_Instrumentation-ICSE22-Submit>/apps`).
 * Run `sh instrument.sh APP_FOLDER APP_PACKAGE_NAME PORT_NUM APP_TYPE` to instrument an app (`APP_TYPE` can be `OPEN_SOURCE` or `CLOSE_SOURCE`. We will explain `PORT_NUM` later. An example command can be `sh instrument.sh apps/org.wikipedia org.wikipedia 3016 OPEN_SOURCE`).
 * When instrumentation finishes, you can see an `output` folder under the `APP_FOLDER`. The apk file whose name ends with `-aligned-debugSigned.apk` is the instrumented apk.
 
